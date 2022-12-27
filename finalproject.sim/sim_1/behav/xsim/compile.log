@@ -1,0 +1,38 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Elliott/Documents/PSU/CMPEN 331/finalProject/finalproject/finalproject.srcs/sources_1/new/Datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Elliott/Documents/PSU/CMPEN 331/finalProject/finalproject/finalproject.srcs/sources_1/new/aluMod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aLUMod
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Elliott/Documents/PSU/CMPEN 331/finalProject/finalproject/finalproject.srcs/sources_1/new/aluMultMod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aluMultMod
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Elliott/Documents/PSU/CMPEN 331/finalProject/finalproject/finalproject.srcs/sources_1/new/controlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Elliott/Documents/PSU/CMPEN 331/finalProject/finalproject/finalproject.srcs/sources_1/new/dataMemMod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemMod
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Elliott/Documents/PSU/CMPEN 331/finalProject/finalproject/finalproject.srcs/sources_1/new/exememRegMod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module exememRegMod
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Elliott/Documents/PSU/CMPEN 331/finalProject/finalproject/finalproject.srcs/sources_1/new/fwda.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fwda
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Elliott/Documents/PSU/CMPEN 331/finalProject/finalproject/finalproject.srcs/sources_1/new/fwdb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fwdb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Elliott/Documents/PSU/CMPEN 331/finalProject/finalproject/finalproject.srcs/sources_1/new/idexePipelineRegister.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module idexePipelineRegister
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Elliott/Documents/PSU/CMPEN 331/finalProject/finalproject/finalproject.srcs/sources_1/new/ifidPipelineRegister.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ifidPipelineRegister
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Elliott/Documents/PSU/CMPEN 331/finalProject/finalproject/finalproject.srcs/sources_1/new/immediateExtender.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module immediateExtender
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Elliott/Documents/PSU/CMPEN 331/finalProject/finalproject/finalproject.srcs/sources_1/new/instructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Elliott/Documents/PSU/CMPEN 331/finalProject/finalproject/finalproject.srcs/sources_1/new/memwbReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memwbReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Elliott/Documents/PSU/CMPEN 331/finalProject/finalproject/finalproject.srcs/sources_1/new/pcAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Elliott/Documents/PSU/CMPEN 331/finalProject/finalproject/finalproject.srcs/sources_1/new/programCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module programCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Elliott/Documents/PSU/CMPEN 331/finalProject/finalproject/finalproject.srcs/sources_1/new/registerFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module registerFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Elliott/Documents/PSU/CMPEN 331/finalProject/finalproject/finalproject.srcs/sources_1/new/regrtMultiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regrtMultiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Elliott/Documents/PSU/CMPEN 331/finalProject/finalproject/finalproject.srcs/sources_1/new/wbMux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wbMux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Elliott/Documents/PSU/CMPEN 331/finalProject/finalproject/finalproject.srcs/sim_1/new/Testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench

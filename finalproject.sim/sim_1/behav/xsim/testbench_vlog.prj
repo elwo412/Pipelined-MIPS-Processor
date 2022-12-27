@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../finalproject.srcs/sources_1/new/Datapath.v" \
+"../../../../finalproject.srcs/sources_1/new/aluMod.v" \
+"../../../../finalproject.srcs/sources_1/new/aluMultMod.v" \
+"../../../../finalproject.srcs/sources_1/new/controlUnit.v" \
+"../../../../finalproject.srcs/sources_1/new/dataMemMod.v" \
+"../../../../finalproject.srcs/sources_1/new/exememRegMod.v" \
+"../../../../finalproject.srcs/sources_1/new/fwda.v" \
+"../../../../finalproject.srcs/sources_1/new/fwdb.v" \
+"../../../../finalproject.srcs/sources_1/new/idexePipelineRegister.v" \
+"../../../../finalproject.srcs/sources_1/new/ifidPipelineRegister.v" \
+"../../../../finalproject.srcs/sources_1/new/immediateExtender.v" \
+"../../../../finalproject.srcs/sources_1/new/instructionMemory.v" \
+"../../../../finalproject.srcs/sources_1/new/memwbReg.v" \
+"../../../../finalproject.srcs/sources_1/new/pcAdder.v" \
+"../../../../finalproject.srcs/sources_1/new/programCounter.v" \
+"../../../../finalproject.srcs/sources_1/new/registerFile.v" \
+"../../../../finalproject.srcs/sources_1/new/regrtMultiplexer.v" \
+"../../../../finalproject.srcs/sources_1/new/wbMux.v" \
+"../../../../finalproject.srcs/sim_1/new/Testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="214422fs"></ZoomEndTime>
+      <Cursor1Time time="5850fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="204"></NameColumnWidth>
+      <ValueColumnWidth column_width="75"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/testbench/DP/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DP/pc_internal" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pc_internal[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_internal[31:0]</obj_property>
+      <obj_property name="label">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DP/nextpc_internal" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">nextpc_internal[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nextpc_internal[31:0]</obj_property>
+      <obj_property name="label">nextpc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DP/instOut_internal" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">instOut_internal[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instOut_internal[31:0]</obj_property>
+      <obj_property name="label">instOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DP/dinstOut_internal" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dinstOut_internal[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dinstOut_internal[31:0]</obj_property>
+      <obj_property name="label">dinstOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DP/rs" type="array">
+      <obj_property name="ElementShortName">rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DP/rt" type="array">
+      <obj_property name="ElementShortName">rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DP/rd" type="array">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group218" type="group">
+      <obj_property name="label">IF/ID</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/testbench/DP/regrt" type="logic">
+         <obj_property name="ElementShortName">regrt</obj_property>
+         <obj_property name="ObjectShortName">regrt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/wreg_internal" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">wreg_internal</obj_property>
+         <obj_property name="ObjectShortName">wreg_internal</obj_property>
+         <obj_property name="label">wreg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/m2reg_internal" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">m2reg_internal</obj_property>
+         <obj_property name="ObjectShortName">m2reg_internal</obj_property>
+         <obj_property name="label">m2reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/wmem_internal" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">wmem_internal</obj_property>
+         <obj_property name="ObjectShortName">wmem_internal</obj_property>
+         <obj_property name="label">wmem</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/aluimm_internal" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">aluimm_internal</obj_property>
+         <obj_property name="ObjectShortName">aluimm_internal</obj_property>
+         <obj_property name="label">aluimm</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/imm32_internal" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">imm32_internal[31:0]</obj_property>
+         <obj_property name="ObjectShortName">imm32_internal[31:0]</obj_property>
+         <obj_property name="label">imm32[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/qa_internal" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">qa_internal[31:0]</obj_property>
+         <obj_property name="ObjectShortName">qa_internal[31:0]</obj_property>
+         <obj_property name="label">qa[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/qb_internal" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">qb_internal[31:0]</obj_property>
+         <obj_property name="ObjectShortName">qb_internal[31:0]</obj_property>
+         <obj_property name="label">qb[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/aluc_internal" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">aluc_internal[3:0]</obj_property>
+         <obj_property name="ObjectShortName">aluc_internal[3:0]</obj_property>
+         <obj_property name="label">aluc[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/destReg_internal" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">destReg_internal[4:0]</obj_property>
+         <obj_property name="ObjectShortName">destReg_internal[4:0]</obj_property>
+         <obj_property name="label">destReg[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/eqa" type="array">
+         <obj_property name="ElementShortName">eqa[31:0]</obj_property>
+         <obj_property name="ObjectShortName">eqa[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/eqb" type="array">
+         <obj_property name="ElementShortName">eqb[31:0]</obj_property>
+         <obj_property name="ObjectShortName">eqb[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/b" type="array">
+         <obj_property name="ElementShortName">b[31:0]</obj_property>
+         <obj_property name="ObjectShortName">b[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/r" type="array">
+         <obj_property name="ElementShortName">r[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/controlMod/mrn" type="array">
+         <obj_property name="ElementShortName">mrn[4:0]</obj_property>
+         <obj_property name="ObjectShortName">mrn[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/controlMod/ern" type="array">
+         <obj_property name="ElementShortName">ern[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ern[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/controlMod/fwda" type="array">
+         <obj_property name="ElementShortName">fwda[1:0]</obj_property>
+         <obj_property name="ObjectShortName">fwda[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/controlMod/fwdb" type="array">
+         <obj_property name="ElementShortName">fwdb[1:0]</obj_property>
+         <obj_property name="ObjectShortName">fwdb[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/fwdbMod/b" type="array">
+         <obj_property name="ElementShortName">b[31:0]</obj_property>
+         <obj_property name="ObjectShortName">b[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/fwdaMod/a" type="array">
+         <obj_property name="ElementShortName">a[31:0]</obj_property>
+         <obj_property name="ObjectShortName">a[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group217" type="group">
+      <obj_property name="label">ID/EXE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/testbench/DP/ewreg" type="logic">
+         <obj_property name="ElementShortName">ewreg</obj_property>
+         <obj_property name="ObjectShortName">ewreg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/em2reg" type="logic">
+         <obj_property name="ElementShortName">em2reg</obj_property>
+         <obj_property name="ObjectShortName">em2reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/ewmem" type="logic">
+         <obj_property name="ElementShortName">ewmem</obj_property>
+         <obj_property name="ObjectShortName">ewmem</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/ealuc" type="array">
+         <obj_property name="ElementShortName">ealuc[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ealuc[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/ealuimm" type="logic">
+         <obj_property name="ElementShortName">ealuimm</obj_property>
+         <obj_property name="ObjectShortName">ealuimm</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/edestReg" type="array">
+         <obj_property name="ElementShortName">edestReg[4:0]</obj_property>
+         <obj_property name="ObjectShortName">edestReg[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/eimm32" type="array">
+         <obj_property name="ElementShortName">eimm32[31:0]</obj_property>
+         <obj_property name="ObjectShortName">eimm32[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group216" type="group">
+      <obj_property name="label">EXE/MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/testbench/DP/mwreg" type="logic">
+         <obj_property name="ElementShortName">mwreg</obj_property>
+         <obj_property name="ObjectShortName">mwreg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/mm2reg" type="logic">
+         <obj_property name="ElementShortName">mm2reg</obj_property>
+         <obj_property name="ObjectShortName">mm2reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/mwmem" type="logic">
+         <obj_property name="ElementShortName">mwmem</obj_property>
+         <obj_property name="ObjectShortName">mwmem</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/mdestReg" type="array">
+         <obj_property name="ElementShortName">mdestReg[4:0]</obj_property>
+         <obj_property name="ObjectShortName">mdestReg[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/mr" type="array">
+         <obj_property name="ElementShortName">mr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/mqb" type="array">
+         <obj_property name="ElementShortName">mqb[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mqb[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/mdo" type="array">
+         <obj_property name="ElementShortName">mdo[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mdo[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group215" type="group">
+      <obj_property name="label">MEM/WB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/testbench/DP/wwreg" type="logic">
+         <obj_property name="ElementShortName">wwreg</obj_property>
+         <obj_property name="ObjectShortName">wwreg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/wm2reg" type="logic">
+         <obj_property name="ElementShortName">wm2reg</obj_property>
+         <obj_property name="ObjectShortName">wm2reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/wdestReg" type="array">
+         <obj_property name="ElementShortName">wdestReg[4:0]</obj_property>
+         <obj_property name="ObjectShortName">wdestReg[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/wr" type="array">
+         <obj_property name="ElementShortName">wr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/wdo" type="array">
+         <obj_property name="ElementShortName">wdo[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wdo[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/wbData" type="array">
+         <obj_property name="ElementShortName">wbData[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wbData[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1125" type="group">
+      <obj_property name="label">Registers</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/testbench/DP/regfileMod/registers[10]" type="array">
+         <obj_property name="ElementShortName">[10][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/regfileMod/registers[9]" type="array">
+         <obj_property name="ElementShortName">[9][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/regfileMod/registers[8]" type="array">
+         <obj_property name="ElementShortName">[8][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/regfileMod/registers[7]" type="array">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/regfileMod/registers[6]" type="array">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/regfileMod/registers[5]" type="array">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/regfileMod/registers[4]" type="array">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/regfileMod/registers[3]" type="array">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/regfileMod/registers[2]" type="array">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/regfileMod/registers[1]" type="array">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/DP/regfileMod/registers[0]" type="array">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
